@@ -4,7 +4,11 @@ Vue.createApp({
     data(){
         return{
             slides,
-
+            active: {
+                flag: true
+                
+            }
+            
         }
     },
     methods: {

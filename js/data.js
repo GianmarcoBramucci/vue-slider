@@ -2,8 +2,8 @@
 export const slides = [
     {
         image: 'img/01.webp',
-            title: 'Marvel\'s Spiderman Miles Morale',
-            text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
+            title: 'Spiderman Miles Morale',
+            text: 'Marvel\'s Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
         }, {
             image: 'img/02.webp',
             title: 'Ratchet & Clank: Rift Apart',
