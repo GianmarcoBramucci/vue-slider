@@ -4,7 +4,8 @@ Vue.createApp({
     data(){
         return{
             slides,
-            ativeIndex : 0
+            ativeIndex : 0,
+            clock : ''
         }
     },
     methods: {
@@ -31,6 +32,13 @@ Vue.createApp({
             else{
                 this.ativeIndex=slides.length-1;
             }
+        },
+        autoPlay: function(){
+            this.clock=setInterval(this.slideForward(),300);
+        },
+        clearautoPlay: function(){
+            clearInterval(this.clock);
         }
+
     }
 }).mount('#app')
